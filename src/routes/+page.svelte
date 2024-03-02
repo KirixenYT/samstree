@@ -32,13 +32,13 @@
     <div class="hero bg-base-200">
       <div class="hero-content text-center">
         <div class="w-full">
-          <h1 class="text-7xl font-bold">Sam' tree</h1>
+          <h1 class="text-7xl font-bold">Sam's tree</h1>
           <p class="py-6 text-2xl">The best website to share your links</p>
           {#if $userData?.username}
             <a href="/{$userData.username}/edit" class="btn btn-primary">Edit Profile</a>
           {:else}
             <a href="/login" class="btn btn-primary">Get Started</a>
-            <a href="/Bustopher" class="btn btn-secondary">Example Profile</a>
+            <a href="/KirIXen" class="btn btn-secondary">Example Profile</a>
           {/if}
           {#if isHovered}
             <img src="anime.gif" alt="Special effect" style="position: absolute; left: {offset +1200}px; top: 450px"/>
