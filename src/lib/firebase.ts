@@ -10,14 +10,14 @@ import { writable, type Readable, derived } from "svelte/store";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAUvQ6MOzHQrVDC0NokCISlvGzT0tJDXMw",
-  authDomain: "kenime-ce9ab.firebaseapp.com",
-  databaseURL: "https://kenime-ce9ab-default-rtdb.firebaseio.com",
-  projectId: "kenime-ce9ab",
-  storageBucket: "kenime-ce9ab.appspot.com",
-  messagingSenderId: "676935729179",
-  appId: "1:676935729179:web:574912ebe3c972cb4778be",
-  measurementId: "G-2F33VR7YCM"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 // Initialize Firebase
